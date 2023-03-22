@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Validar cadena</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+		<form onsubmit="return false;">
+			<label for="inputString">Ingrese la cadena:</label>
+			<input type="text" id="inputString" name="inputString" placeholder="Ej: aaaa">
+
+			<button onclick="validarCadena()">Validar</button>
+
+			<label for="outputString">Resultado:</label>
+			<textarea id="outputString" name="outputString" readonly></textarea>
+		</form>
+	</div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
